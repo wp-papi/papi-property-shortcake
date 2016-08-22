@@ -104,11 +104,11 @@ class Papi_Property_Shortcake extends Papi_Property {
 				</button>
 			</div>
 
-			<input type="hidden" name="<?php echo esc_attr( $this->html_name() ); ?>" value="<?php echo esc_attr( $value ); ?>">
+			<input type="hidden" name="<?php esc_attr_e( $this->html_name() ); ?>" value="<?php esc_attr_e( $value ); ?>">
 
 			<div class="papi-shortcake-container">
 				<?php if ( $title ): ?>
-					<h3><?php echo esc_html( $title ); ?></h3>
+					<h3><?php esc_html_e( $title ); ?></h3>
 				<?php endif; ?>
 
 				<div class="papi-shortcake-container-inner <?php echo $value ? '' : 'papi-hide'; ?>">
@@ -198,7 +198,7 @@ class Papi_Property_Shortcake extends Papi_Property {
 
 					jQuery('.media-modal-content .add-shortcode-list li[data-shortcode="' + shortcode.attributes.shortcode_tag + '"]').trigger('click');
 					jQuery('.media-modal-content .edit-shortcode-form-cancel').remove();
-					jQuery('.media-modal-content .media-frame-title h1').text(shortcode.attributes.label + ' details'); // TODO: translate
+					jQuery('.media-modal-content .media-frame-title h1').text(shortcode.attributes.label + ' <?php esc_html_e( 'Details' ); ?>');
 
 					for (var key in shortcode.attrs.named) {
 						if (shortcode.attrs.named.hasOwnProperty(key)) {
