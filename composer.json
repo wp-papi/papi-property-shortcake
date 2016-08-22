@@ -1,0 +1,22 @@
+{
+  "name": "wp-papi/papi-property-shortcake",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Shortcake property for Papi",
+  "authors": [
+    {
+      "name": "Fredrik Forsmo",
+      "email": "fredrik.forsmo@gmail.com",
+      "homepage": "https://github.com/frozzare"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "papi",
+    "shortcake"
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "composer/installers": "~1.0"
+  }
+}
