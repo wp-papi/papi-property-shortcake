@@ -1,4 +1,4 @@
-# Papi - Property Shortcake
+# Papi - Shortcake property
 
 [Shortcake](https://github.com/wp-shortcake/shortcake) property for Papi.
 
