@@ -1,6 +1,6 @@
 # Papi - Shortcake property
 
-[Shortcake](https://github.com/wp-shortcake/shortcake) property for Papi.
+[Shortcake](https://wordpress.org/plugins/shortcode-ui/) property for Papi.
 
 ## Installation
 
